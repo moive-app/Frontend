@@ -1,4 +1,4 @@
-package com.moive.app.data.di
+package com.moive.app.data.local.di
 
 import android.content.Context
 import androidx.datastore.core.DataStore
