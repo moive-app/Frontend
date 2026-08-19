@@ -1,4 +1,4 @@
-package com.moive.app.ui.theme
+package com.moive.app.core.designsystem.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
