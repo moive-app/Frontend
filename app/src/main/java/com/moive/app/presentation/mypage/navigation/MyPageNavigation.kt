@@ -8,6 +8,7 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavOptions
 import androidx.navigation.compose.composable
 import com.moive.app.core.navigation.MainTabRoute
+import com.moive.app.presentation.mypage.MyPageRoute
 import kotlinx.serialization.Serializable
 
 fun NavController.navigateToMyPage(
