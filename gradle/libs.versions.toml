@@ -1,6 +1,6 @@
 [versions]
 # Build Tools
-agp = "9.0.1"
+agp = "9.2.1"
 
 # AndroidX
 coreKtx = "1.19.0"
@@ -19,7 +19,6 @@ constraintlayoutCompose = "1.1.1"
 kotlin = "2.4.10"
 kotlinxImmutable = "0.5.1"
 kotlinxSerializationJson = "1.11.0"
-kotlinParcelize = "2.3.0"
 
 # Third Party
 lottieCompose = "6.7.1"
@@ -101,7 +100,7 @@ kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "ko
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
-kotlin-parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlinParcelize" }
+kotlin-parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlin" }
 
 
 [bundles]

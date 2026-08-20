@@ -16,9 +16,7 @@ val properties = Properties().apply {
 android {
     namespace = "com.moive.app"
     compileSdk {
-        version = release(36) {
-            minorApiLevel = 1
-        }
+        version = release(37)
     }
 
     defaultConfig {
