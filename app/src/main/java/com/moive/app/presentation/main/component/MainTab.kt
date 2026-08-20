@@ -1,10 +1,11 @@
 package com.moive.app.presentation.main.component
 
 import androidx.annotation.DrawableRes
-import androidx.compose.ui.input.key.Key.Companion.Home
 import com.moive.app.R.drawable.ic_launcher_background
 import com.moive.app.core.navigation.MainTabRoute
 import com.moive.app.core.navigation.Route
+import com.moive.app.presentation.home.navigation.Home
+import com.moive.app.presentation.mypage.navigation.MyPage
 
 enum class MainTab(
     @DrawableRes val iconRes: Int,
